@@ -72,13 +72,14 @@ h1 {
 
 .links a {
     display: inline-block;
-    margin: 5px;
+    margin: 10px;
     color: #007bff;
-    text-decoration: none; /* Ensure text-decoration is set to none */
-    font-weight: bold;
+    text-decoration: none;
+    font-size: 24px; /* Adjust the size as needed */
+    transition: color 0.3s ease;
 }
 
 .links a:hover {
-    text-decoration: underline; /* Use underline or another style */
     color: #0056b3;
+    text-decoration: none;
 }
